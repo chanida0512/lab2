@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+<style>
+body{
+    background-image: url('bg6.jpg');
+}
+    #footer 
+    {
+    position: relative;
+    bottom:-100px; 
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:15px;	 
+}
+ 
+</style>
+
+<body>
+    
+    <h2><b>Your information</b></h2>
+    <p> Please put your information</p>
+    <form action="/action_page.php">
+        <ul>
+        <li><label>Name:</label>
+        <input type="text" id="fname" name="fname"size="15" >
+        <label for="fname">First</label>
+        <input type="text" id="lname" name="lname" >
+        <label for="lname">Last</label>
+        
+        </li>
+        <li>
+          <label>Gender</label>
+          <input type="radio" id="male" name="gender">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender">
+          <label for="female">Female</label>
+          <input type="radio" id="notsure" name="gender">
+          <label for="notsure">Not sure</label>
+        </li>
+        <li>
+            <label>Address</label><br>
+            <input type="text" id="Street" name="Street" size="20" >
+            <label for="Address">Street Address</label><br>
+            <input type="text" id="Line" name="Line" >
+            <label for="Address">Address Line 2</label><br>
+            <input type="text" id="City" name="City" >
+            <label for="Address">City</label><br>
+            <input type="text" id="State" name="State">
+            <label for="Address">State / Province / Region</label><br>
+            <input type="text" id="Postal" name="Postal">
+            <label for="Address">Postal / Zip Code</label><br>
+            
+            
+            <select id="country" name="country"  >
+            <option value="thailand">Thailand</option>
+            <option value="southKorea">South Korea</option>
+            <option value="china">China</option>
+            <option value="japan">Japan</option>
+            </select>
+            <label for="cars">Country</label>
+        </li>
+        <li>
+            <label>Phone</label>
+            <input type="text" id="phone" name="phone" size="5" >
+            <label>-(###)</label>
+            <input type="text" id="phone" name="phone" size="5" >
+            <label>-###</label>
+            <input type="text" id="phone" name="phone" size="5" >
+            <label>####</label>
+        </li>
+        <li>
+            <label>Email</label><br>
+            <input type="text" id="email" name="email" size="20" >
+        </li>
+        <li>
+            <label>Select classes you would like to attend:</label>
+            <input type="checkbox" id="webpro" name="webpro" >
+            <label> Web Programming</label>
+            <input type="checkbox" id="mobile" name="mobile" >
+            <label> Mobile Programming</label>
+            <input type="checkbox" id="databases" name="databases" >
+            <label> Databases</label>
+            <input type="checkbox" id="algorithms" name="algorithms">
+            <label> Algorithms</label>
+            <input type="checkbox" id="datastructures" name="datastructures">
+            <label> Data structures</label>
+        </li>
+        <li>
+            <label>Your homepage</label><br>
+            <input type="text" value="http://">
+        </li>
+        <li><button type="button" onclick="alert('Ok')">Submit</button></li>
+    </ul>
+    </form>
+
+    <img src="giphy.gif" height="200px" align= "right" >
+
+
+<div style="text-align: center; padding: 1%; "><a href="main.html"><i class="material-icons" >fas fa-house-user</i></a></div>
+<div id="footer">
+    &#169; Copyright  
+<a href="mailto:chanida.weeraporasu@g.swu.ac.th">chanida.weeraporasu@g.swu.ac.th</a>
+</body>
+</html>
